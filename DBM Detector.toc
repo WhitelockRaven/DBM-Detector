@@ -1,0 +1,6 @@
+## Interface: 20501
+## Title: DBM Detector
+
+## Notes: Detects Deadly Boss Mods
+
+DBM Detector.lua
