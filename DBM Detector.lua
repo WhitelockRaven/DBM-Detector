@@ -7,13 +7,14 @@ local registeredPrefixes = C_ChatInfo.GetRegisteredAddonMessagePrefixes()
 print(registeredPrefixes)
 local function CHAT_MSG_ADDON_CALLBACK(prefix, msg, type, sender)
 	if (type ~= "GUILD") then
-        if (prefix == "D4BC") then
-            print("DBM message detected from " .. sender .. " in " .. type)
-        end
+		if (prefix == "D4BC") then
+		    print("DBM message detected from " .. sender .. " in " .. type)
+		end
+		
 		if (prefix == "BigWigs") then
 			print("BigWigs message detected from " .. sender .. " in " .. type)
 		end
-    end
+    	end
 end
 
 local function FrameEventCallback(event, ...)
