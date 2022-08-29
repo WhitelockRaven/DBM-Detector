@@ -4,9 +4,9 @@ successfulRequest = C_ChatInfo.RegisterAddonMessagePrefix("BigWigs")
 -- Local variable declarations and initiations
 local registeredPrefixes = C_ChatInfo.GetRegisteredAddonMessagePrefixes()
 local playernames = {}
-local showchatmessage = true
-local ignoreguild = true
-local ignorereapeated = false
+showchatmessage = true
+ignoreguild = true
+ignorereapeated = false
 local prefixtofilterfor = "D4BC, BigWigs"
 
 -- Function to make one multi-line string out of the table fullstring
@@ -21,13 +21,13 @@ end
 
 -- Used for the Interface/AddOns menu
 local panel = CreateFrame("Frame")
-panel.name = "DBM Detector"               -- see panel fields
+panel.name = "DBM-Detector"               -- see panel fields
 InterfaceOptions_AddCategory(panel)  -- see InterfaceOptions API
 
 -- add widgets to the panel as desired
 local title = panel:CreateFontString("ARTWORK", nil, "GameFontNormalLarge")
 title:SetPoint("TOP", panel, 0, -10)
-title:SetText("DBM Detecor")
+title:SetText("DBM-Detecor")
 
 
 -- Actual text for messages recived
