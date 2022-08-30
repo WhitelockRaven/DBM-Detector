@@ -7,7 +7,7 @@ local playernames = {}
 showchatmessage = true
 ignoreguild = true
 ignorereapeated = false
-local prefixtofilterfor = "D4BC, BigWigs"
+local prefixtofilterfor = "D4BC, D4WC, BigWigs"
 
 -- Function to make one multi-line string out of the table fullstring
 local function MakeNameString()
